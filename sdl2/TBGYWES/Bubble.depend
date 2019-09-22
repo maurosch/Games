@@ -1,0 +1,94 @@
+# depslib dependency file v1.0
+1447806983 source:d:\mauro\sdl2\bubble\bala.cpp
+	"bala.h"
+	"game.h"
+	"player.h"
+	"ltexture.h"
+	"monster.h"
+	<SDL.h>
+	<SDL_image.h>
+	<iostream>
+	<vector>
+	<map>
+	<stdlib.h>
+	<math.h>
+
+1447806983 d:\mauro\sdl2\bubble\bala.h
+	<SDL.h>
+	<map>
+
+1447806983 d:\mauro\sdl2\bubble\game.h
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+	"ltexture.h"
+	"player.h"
+	"fps.h"
+	"monster.h"
+	<iostream>
+	<stdio.h>
+	<string>
+	<sstream>
+
+1447806983 d:\mauro\sdl2\bubble\ltexture.h
+	<SDL.h>
+	<string>
+
+1447806983 d:\mauro\sdl2\bubble\player.h
+	<SDL.h>
+	<vector>
+	<iostream>
+	"bala.h"
+
+1447806983 d:\mauro\sdl2\bubble\fps.h
+	<SDL.h>
+
+1447806983 d:\mauro\sdl2\bubble\monster.h
+	<SDL.h>
+	<vector>
+	"bala.h"
+
+1447806983 source:d:\mauro\sdl2\bubble\fps.cpp
+	"fps.h"
+	<SDL.h>
+
+1447806983 source:d:\mauro\sdl2\bubble\game.cpp
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+	<stdio.h>
+	<string>
+	<sstream>
+	<iostream>
+	<map>
+	<iterator>
+	"game.h"
+	"player.h"
+	"monster.h"
+
+1447806993 source:d:\mauro\sdl2\bubble\ltexture.cpp
+	"ltexture.h"
+	"game.h"
+	<string>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+
+1446166346 source:d:\mauro\sdl2\bubble\main.cpp
+	"game.h"
+
+1447806983 source:d:\mauro\sdl2\bubble\monster.cpp
+	"monster.h"
+	"game.h"
+	<SDL.h>
+	<math.h>
+	<iostream>
+
+1447806983 source:d:\mauro\sdl2\bubble\player.cpp
+	"player.h"
+	"game.h"
+	"ltexture.h"
+	<SDL.h>
+

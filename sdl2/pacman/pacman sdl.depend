@@ -1,0 +1,61 @@
+# depslib dependency file v1.0
+1445999634 source:d:\mauro\sdl2\pacman (sdl2)\frutillas.cpp
+	"frutillas.h"
+	"ltexture.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdlib.h>
+
+1445999514 d:\mauro\sdl2\pacman (sdl2)\frutillas.h
+	<SDL.h>
+	<SDL_image.h>
+
+1445999521 d:\mauro\sdl2\pacman (sdl2)\ltexture.h
+	<SDL.h>
+	<SDL_image.h>
+	<string>
+
+1445999855 source:d:\mauro\sdl2\pacman (sdl2)\ltexture.cpp
+	"ltexture.h"
+	<string>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<stdio.h>
+
+1446000802 source:d:\mauro\sdl2\pacman (sdl2)\main.cpp
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+	<stdio.h>
+	<string>
+	<fstream>
+	"tile.h"
+	"ltexture.h"
+	"player.h"
+	"frutillas.h"
+
+1445999911 d:\mauro\sdl2\pacman (sdl2)\tile.h
+	<SDL.h>
+	<SDL_image.h>
+
+1445999587 d:\mauro\sdl2\pacman (sdl2)\player.h
+	<SDL.h>
+	<SDL_image.h>
+	"tile.h"
+
+1445999971 source:d:\mauro\sdl2\pacman (sdl2)\player.cpp
+	"player.h"
+	<SDL.h>
+	<SDL_image.h>
+	"ltexture.h"
+	<stdlib.h>
+
+1445999587 source:d:\mauro\sdl2\pacman (sdl2)\tile.cpp
+	"tile.h"
+	<SDL.h>
+	<SDL_image.h>
+	"ltexture.h"
+	<string>
+

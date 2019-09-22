@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1444779473 source:c:\users\mauro\documents\pacman c++\game.cxx
+	<iostream>
+	<stdlib.h>
+	<time.h>
+	<ncurses.h>
+	<thread>
+	<chrono>
+	<windows.h>
+	"curses.h"
+	"game.h"
+	<string.h>
+	<fstream>
+
+1220933418 c:\users\mauro\documents\pacman c++\curses.h
+	<stdarg.h>
+	<stddef.h>
+	<stdio.h>
+	<wchar.h>
+
+1444498052 c:\users\mauro\documents\pacman c++\game.h
+
+1444789545 source:c:\users\mauro\documents\pacman c++\main.cxx
+	<iostream>
+	<stdlib.h>
+	<time.h>
+	<ncurses.h>
+	<thread>
+	<chrono>
+	<windows.h>
+	"curses.h"
+	"game.h"
+	<string.h>
+	<fstream>
+
