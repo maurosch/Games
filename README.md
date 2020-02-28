@@ -4,15 +4,24 @@ A few games made by me.\
 
 ## CrazyTaxi
 
-![screenshot1](img/screenshot_crazytaxi.png)
-![screenshot2](img/screenshot_crazytaxi2.png)
+![screenshot1](img/CrazyTaxi.gif)
 
 ## TBGYWES
 
-![screenshot3](img/screenshot_TBGYWES.png)
+![screenshot2](img/screenshot_TBGYWES.png)
 
 ## MultiSnake
 
-![screenshot4](img/MultiSnake.gif)
+![screenshot3](img/MultiSnake.gif)
+
+## Truco
+
+![screenshot4](img/Truco.png)
+
+## BFS
+
+![screenshot5](img/BFS.png)
+
+
 
 

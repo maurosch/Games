@@ -1,7 +1,24 @@
 #include <iostream>
 #include <time.h>
-#include <windows.h>
+#include <thread>
+//#include <windows.h>
 using namespace std;
+
+void Sleep(int miliSeconds)
+{
+	this_thread::sleep_for(chrono::milliseconds(miliSeconds));
+}
+
+void clean()
+{
+    //----WINDOWS----
+    //system("cls");
+    //-----LINUX-----
+    system("clear");
+}
+
+
+
 /// 0 -> ORO  1 -> COPA  2 -> ESPADA  3 -> BASTO
 /*1 espada     15
 1 de basto     14
@@ -138,7 +155,7 @@ void cantarTruco(bool cantoIA, bool trucos[3], int cartasIA[3], int &ganaMano, b
     if (trucos[2]) return; ///SALIR SI YA NO HAY MAS QUE CANTAR
     if (cantoIA and IAPuedeCantar)
     {
-        system("cls");
+        clean();
         if (trucos[0])
         {
             if (trucos[1])
@@ -180,7 +197,7 @@ void cantarTruco(bool cantoIA, bool trucos[3], int cartasIA[3], int &ganaMano, b
     {
         if (!cantoIA and HumanoPuedeCantar)
         {
-            system("cls");
+            clean();
             if (trucos[0])
             {
                 if (trucos[1])
@@ -226,7 +243,7 @@ void cantarTruco(bool cantoIA, bool trucos[3], int cartasIA[3], int &ganaMano, b
 void cantarEnvido(int &puntajeHumano, int &puntajeIA, bool cantoIA, int cartasIA[3], int cartasHumano[3], bool &envidoCantado)
 {
     int opcion;
-    system("cls");
+    clean();
     if (cantoIA)
     {
         cout << "IA: Envido!" << endl;
@@ -534,7 +551,7 @@ bool trucos[3], int &puntajeIA, int &puntajeHumano, int &ganaMano, bool &HumanoP
 }
 void mostrarJuego(int cartasHumano[3], int PriSegTercartasIA[3], bool bCartasHumano[3], int puntajeHumano, int puntajeIA)
 {
-    system("cls");
+    clean();
     cout << " YO    |  IA   " << endl;
     cout << "-------|-------" << endl;
     for(int i = 0; i < 3; i++)
@@ -607,7 +624,7 @@ void color(int letra, int fondo)
     13 = Purpura claro
     14 = Amarillo claro
     15 = Blanco brillante */
-    SetConsoleTextAttribute(GetStdHandle (STD_OUTPUT_HANDLE),x);
+    //SetConsoleTextAttribute(GetStdHandle (STD_OUTPUT_HANDLE),x);
 }
 bool randomPorcentaje(int porcentaje)
 {
@@ -814,7 +831,7 @@ void randomCartas(int cartasIA[3], int cartasHumano[3])
 };
 void elegirCartas(int cartasIA[3], int cartasHumano[3], bool &anteriorManoEmpezoIA)
 {
-    system("cls");
+    clean();
     int opcion;
     cout << "0-9 -> ORO  10-19 -> COPA  20-29 -> ESPADA  30-39 -> BASTO" << endl;
     cout << "NUMERO = CARTA % 10 + 3 (SI ES MAYOR A 6) + 1 (SI ES MENOR A 7)" << endl << endl;
