@@ -1,6 +1,6 @@
-# MauroGames
-Algunos Juegos Hechos por mi.\
-A few games made by me.\
+# Games
+Juegos hechos por mi.\
+Games made by me.
 
 ## CrazyTaxi
 
