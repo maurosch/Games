@@ -20,7 +20,7 @@ A few games made by me.\
 
 ## BFS
 
-![screenshot5](img/BFS.png)
+![screenshot5](img/BFS.gif)
 
 
 
