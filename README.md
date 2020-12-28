@@ -2,23 +2,23 @@
 Juegos hechos por mi.\
 Games made by me.
 
-## CrazyTaxi
+## CrazyTaxi (C++ & ncurses)
 
 ![screenshot1](img/CrazyTaxi.gif)
 
-## TBGYWES
+## TBGYWES (C++ & SDL2)
 
 ![screenshot2](img/screenshot_TBGYWES.png)
 
-## MultiSnake
+## MultiSnake (C++ & SDL2)
 
 ![screenshot3](img/MultiSnake.gif)
 
-## Truco
+## Truco (C++)
 
 ![screenshot4](img/Truco.png)
 
-## BFS
+## BFS (C++ & SDL2)
 
 ![screenshot5](img/BFS.gif)
 
